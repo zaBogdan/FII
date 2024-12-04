@@ -33,7 +33,7 @@ The project architecture consists of the following components:
         - "8080"
         - --scheme
         - http
-        image: semitechnologies/weaviate:1.19.6
+        image: cr.weaviate.io/semitechnologies/weaviate:1.19.6
         ports:
         - 8383:8080
         restart: on-failure:0
